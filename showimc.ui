@@ -76,7 +76,7 @@
           <item row="1" column="0">
            <widget class="QLabel" name="label">
             <property name="text">
-             <string>Actual:</string>
+             <string>Peso Actual(Kg):</string>
             </property>
            </widget>
           </item>
@@ -154,7 +154,7 @@
           <item row="1" column="0">
            <widget class="QLabel" name="label_5">
             <property name="text">
-             <string>Ingrese su altura:</string>
+             <string>Ingrese su altura(m):</string>
             </property>
            </widget>
           </item>
