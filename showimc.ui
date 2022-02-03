@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ShowIMC</string>
+   <string>IMC</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Recursos.qrc">
+    <normaloff>:/Resources/masa-corporal.png</normaloff>:/Resources/masa-corporal.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -182,6 +186,10 @@
          <property name="text">
           <string>GUARDAR DATOS</string>
          </property>
+         <property name="icon">
+          <iconset resource="Recursos.qrc">
+           <normaloff>:/Resources/disquete.png</normaloff>:/Resources/disquete.png</iconset>
+         </property>
         </widget>
        </item>
       </layout>
@@ -317,6 +325,10 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionGuardar_Imagen">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resources/disquete.png</normaloff>:/Resources/disquete.png</iconset>
+   </property>
    <property name="text">
     <string>Guardar Imagen</string>
    </property>
@@ -325,6 +337,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Recursos.qrc"/>
+ </resources>
  <connections/>
 </ui>

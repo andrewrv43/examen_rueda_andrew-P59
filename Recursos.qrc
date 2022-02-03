@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>Showimc_de.qm</file>
+        <file>Resources/masa-corporal.png</file>
+        <file>Resources/disquete.png</file>
     </qresource>
 </RCC>
